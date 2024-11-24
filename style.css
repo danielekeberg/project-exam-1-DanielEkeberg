@@ -15,7 +15,7 @@ html, body {
 body {
     font-family: 'Inria Sans', sans-serif;
     /* background: #212121; */
-    background: radial-gradient(circle at top left, rgb(6, 0, 58), rgb(6, 6, 8), rgb(0, 1, 44));
+    background: radial-gradient(circle at top left, rgb(4, 0, 37), rgb(6, 6, 8), rgb(44, 0, 17));
     display: flex;
     flex-direction: column;
 }
@@ -259,6 +259,12 @@ article a {
     text-align: center;
     margin: 25px;
     font-size: 28px;
+}
+
+.register-container p {
+    color: #212121;
+    text-align: center;
+    margin: 10px 0 5px;
 }
 
 .login-form {
