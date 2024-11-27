@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
+    <script src="/js/posts.js" defer></script>
+    <script src="/js/hamburger.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -48,27 +50,24 @@
             </div>
             <button class="carousel-control right">▶</button>
         </div>
+
         <section class="content">
-            <article>
-                <a href="/research.html">
-                    <img src="/assets/image1.jpg" alt="Research and Development">
-                    <div class="text">
-                        <h2>Research and Development</h2>
-                        <p>The systematic exploration and creation of new knowledge, technologies, or processes to innovate and improve products, services, or systems. It drives growth and competitive advantage by transforming ideas into practical solutions.</p>
-                    </div>
-                </a>
-            </article>
-            <article>
-                <a href="#">
-                    <img src="/assets/image2.jpg" alt="Institute of Advanced Technology">
-                    <div class="text">
-                        <h2>Institute of Advanced Technology</h2>
-                        <p>The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.</p>
-                    </div>
-                </a>
-            </article>
+            
+            <div id="hamburger-menu">
+                <div id="hamburger-icon">&#9776;</div>
+                <ul id="dropdown-menu" class="hidden">
+                    <li id="sort-newest">Newest</li>
+                    <li id="sort-oldest">Oldest</li>
+                    <li id="sort-alphabetical">Alphabetical</li>
+                </ul>
+            </div>
+
+            <div id="tech-container"></div>
+            <button id="read-more">READ MORE</button>
+
+            <div id="post-counter"></div>
         </section>
-        <button class="read-more">READ MORE</button>
+
     </main>
     <footer>
         <p>Test</p>
