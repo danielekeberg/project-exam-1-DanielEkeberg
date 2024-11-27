@@ -510,6 +510,7 @@ article a {
 
 #dropdown-menu li:hover {
     background: #f1f1f1;
+    color: #212121;
 }
 
 #dropdown-menu.visible {
@@ -520,3 +521,13 @@ article a {
     display: none;
 }
 
+.checkmark {
+    color: green;
+    font-size: 16px;
+    margin-left: 10px;
+    visibility: hidden; /* Hidden by default */
+}
+
+#dropdown-menu li.active .checkmark {
+    visibility: visible; /* Show only for the active item */
+}
