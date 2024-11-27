@@ -520,14 +520,3 @@ article a {
 .hidden {
     display: none;
 }
-
-.checkmark {
-    color: green;
-    font-size: 16px;
-    margin-left: 10px;
-    visibility: hidden; /* Hidden by default */
-}
-
-#dropdown-menu li.active .checkmark {
-    visibility: visible; /* Show only for the active item */
-}
