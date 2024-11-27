@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "title": "AMD and Copilot+ Set the Stage for Xbox AI",
+        "description": "AMD just got the nod from Microsoft that its new mobile Ryzen AI 300 series processors will now be capable of running Microsoft’s advanced AI applications, which are marketed under the brand name Copilot+. AMD is also the supplier to Microsoft Xbox, and with Microsoft heavily focused on AI, it is only a matter of time before the AI Xbox is announced.",
+        "descriptionPreview": "Let’s talk about what to expect when the AI Xbox comes to market next year, and we’ll close with my Product of the Week, a new AI-enabled processor from Intel Lunar Lake.",
+        "publishDate": "2024-09-09",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/N3wv6ZJ/Copilot-PC.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Apple Glowtime Event Triples Down on Apple Intelligence",
+        "description": "Apple’s greatest fear is that its exalted iPhone has become too foreseeable. For the most part, it has largely remained the same during the previous seven years, with incremental upgrades to its cameras, CPUs, and battery life. However, Apple attempted to break free from this predictability on Monday by releasing the first iPhone models designed for artificial intelligence from the “ground up,” a phrase that CEO Tim Cook used in his opening remarks. Consistent with its prior virtual product launches that spawned during the Covid era, the company hosted a prerecorded video from its Silicon Valley headquarters to unveil the iPhone 16, available in four variants optimized for Apple Intelligence, the company’s generative AI-powered system. According to Apple, the phones will have enhanced capabilities such as message sorting, recommendation writing, and an upgraded Siri, making it a more powerful virtual assistant. The firm also revealed the Apple Watch Series 10, which features a larger, brighter display about 10% slimmer than its Series 9 predecessor. Apple also unveiled a new model, AirPods Pro, which can function as a professional-grade hearing aid — Apple’s first foray into that area — and automatically reduce noise at concerts or near construction sites.",
+        "descriptionPreview": "Although AI is the current buzzword with many consumers, the jury is still out on whether most mainstream users will drink the Apple Intelligence Kool-Aid and move to upgrade their current iPhones.",
+        "publishDate": "2024-09-12",
+        "author": "Merk N. Vena",
+        "image": "https://i.ibb.co/NLWjTHV/Apple-Glowtime.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Could Debate Prep Become an Artform With Nvidia Omniverse?",
+        "description": "I’m writing this before the September 10 presidential debate to avoid any influence on my perspective. Both candidates are reportedly preparing by using surrogates to stand in for their opponents. This strategy doesn’t always work well and has proven ineffective in previous debates. The problem with using human surrogates is that unless the person prepares for the role like a professional actor by immersing themselves in the character, their performance, and thus their effectiveness, will be highly unreliable. Part of the problem is that the stand-in won’t feel as comfortable with the personal attacks on someone they work for, further reducing their effectiveness as a training dummy. However, a simulation tool like Nvidia Omniverse, backed by a conversational AI trained on the opponent’s past behavior and public social media posts, could create a far more accurate emulation of that opponent. In addition, this capability wouldn’t just be applied to presidential candidates but to people running for lower offices, congressional debates, legal debates in court trials, and discussions between business managers trying to get a part of a budget that can only support one.",
+        "descriptionPreview": "Using a simulation tool like Omniverse for debate preparation will be a game-changer if one side or the other exclusively uses it, but if both sides use it, things get interesting.",
+        "publishDate": "2024-09-16",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/Wz7JRwX/debate-stage.jpg"
+    },
+    {
+        "id": 4,
+        "title": "HP Imagine Showcases Unique AI Innovations",
+        "description": "AI advancements over the last two years have been nothing short of amazing. Initially driven by Nvidia, Microsoft, and OpenAI, this wave has spread far and wide, leaving few firms out of this AI feeding frenzy. As with all initial technology advancements, most vendors are screaming, “You must deploy AI now!” However, they have little experience or understanding of AI yet, which is fueling a staggering failure rate approaching 90%. One exception is HP, which has been aggressively deploying and using AI internally. At HP’s Imagine event last month, we saw a better AI future focused not on deploying AI for its own sake but on developing detailed plans encompassing HP’s internal resources and an impressive number of partners to ensure that AI deployments will succeed.",
+        "descriptionPreview": "At HP’s Imagine event last month, we saw a better AI future focused not on deploying AI for its own sake but on developing detailed plans encompassing HP’s internal resources and an impressive number of partners to ensure that AI deployments will succeed.",
+        "publishDate": "2024-10-07",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/42Yx9Qj/HP-Imagine-2024-event.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Strong Basics: The Building Blocks of Software Engineering",
+        "description": "One of the most influential teachers I’ve had was my university music professor. One piece of wisdom particularly resonates with me: he asked, “How good would you be if you did everything your teacher told you to do?” His point was not that you should unquestioningly do what you’re told. Rather, he meant that after we’re familiar enough with a discipline, we know what yields improvement at it. We know what habits, procedures, and mindsets will make us better at what we do. Of course, he wouldn’t have made this remark if we did consistently do what we knew we should. But why? There are many possible reasons, but I believe the most common is simply laziness. Addressing all those fundamentals is hard work and not as fun as doing the flashy stuff. If you were building a skyscraper, would you prefer to cement the foundation or construct the penthouse level? We don’t appreciate that sturdy base unless we discover, often catastrophically, that it’s faulty.",
+        "descriptionPreview": "The following observations were compiled with software engineering in mind, as I identified them while working in that discipline. However, these practices apply universally.",
+        "publishDate": "2024-10-11",
+        "author": "Jonathan Terrasi",
+        "image": "https://i.ibb.co/PzHzR5s/software-engineer.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Intel vs. AMD, Nvidia, Qualcomm: What the Hell Happened?",
+        "description": "I stopped working for Forrester in 2002 and went out on my own as an independent analyst. At that time, Intel’s valuation and power significantly eclipsed AMD and Nvidia. Intel had a strong corporate brand, and Pentium was so popular people wrote songs about it, and Qualcomm wasn’t even on Intel’s radar. Twenty-two years later, Intel is hurt and bleeding. AMD is hosting an event at the Moscone Center, where Intel used to hold its huge IDF events. Nvidia is the highest-valued company in the group, and Qualcomm reportedly recently explored a move to buy Intel. What the hell happened? Intel took its eye off the ball and repeated many of the same mistakes that IBM made in the 1980s.",
+        "descriptionPreview": "Let’s examine how Intel's trajectory has changed over the past two decades, tracing the key missteps and missed opportunities that allowed AMD, Nvidia, and Qualcomm to surpass it.",
+        "publishDate": "2024-10-14",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/HpvJwL6/businessman-thinking.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Upgrading to Ubuntu 24.10 Oracular Oriole: Step-by-Step Guide",
+        "description": "Canonical released Ubuntu 24.10 “Oracular Oriole” on Oct. 10, 2024. This latest version brings performance improvements and enhanced hardware support while also marking a special milestone — 20 years since Ubuntu’s first stable release. As the name suggests, Ubuntu 24.04 LTS (Long-Term Support) is still being supported and will continue to receive five years of free security maintenance updates.",
+        "descriptionPreview": "Ubuntu 24.10 Oracular Oriole features performance improvements and enhanced hardware support. This tutorial walks you through how to upgrade from Ubuntu 22.04 to the latest version.",
+        "publishDate": "2024-10-14",
+        "author": "Nate Drake",
+        "image": "https://i.ibb.co/qy2wXM3/Oracular-Oriole.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Why and How Lenovo Is Outpacing the Competition in AI",
+        "description": "On paper, Lenovo Group and Dell Technologies are remarkably alike, but the two companies are organized and run differently. That will become clear to most who compare last week’s Lenovo Tech World 2024 event to Dell’s similar event next month. At the heart of the difference is the nature of both companies’ acquisitions and executive leadership. Lenovo’s leadership is geographically diverse, making it a truly global company, while Dell’s is primarily centralized in the U.S. Although Michael Dell was instrumental in the company’s growth, he appears to have almost retired in place. Meanwhile, Lenovo CEO Yang Yuanqing, known as YY, is still a vibrant part of the company’s management. This difference allows Lenovo to move much more decisively on industry changes, while Dell appears unable to make big moves and has to undergo massive layoffs to make the same pivot to AI that Lenovo has already made. Another difference is the extent to which Lenovo is using AI. It’s already using AI operationally and selling mature AI solutions, while Dell still appears stuck on trying to sell a concept that the firm does not seem to know how to use yet. Dell’s marketing is doing a decent job of covering for these shortcomings, but the layoffs imply most customers are not fooled.",
+        "descriptionPreview": "Lenovo's strategic supplier partnerships and innovative use of AI are positioning the company ahead of its competitors, as highlighted by key takeaways from Lenovo Tech World 2024 that demonstrate its approach to AI innovation.",
+        "publishDate": "2024-10-21",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/ctD59Yt/tech-race.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Arm Goes to War Against Qualcomm: Stupid Squared",
+        "description": "Because of Intel’s relative weakness at the moment, Arm has an opportunity to move outside of its smartphone base and solidly into PCs. Instead of backing Qualcomm’s play, Arm has decided to cancel Qualcomm’s license. This move not only appears to be an abuse of power but is extremely ill-timed, given Intel and AMD have correctly identified the threat and formed a partnership to fight it. It suggests that maybe Qualcomm shouldn’t have blocked Nvidia’s attempt to buy Arm because, to get government approvals for the deal, Nvidia would have had to protect Qualcomm’s interests and be blocked from doing what Arm is now doing to Qualcomm. Further, Arm is at risk even for smartphones because the hottest smartphone currently on the market is from Huawei. It doesn’t use an Arm processor but a Kirin processor, which, on paper, might be better. My Product of the Week is a Huawei phone pulling interest in line with the original iPhone. So, this Arm vs. Qualcomm war is ill-timed.",
+        "descriptionPreview": "Because of Intel’s relative weakness at the moment, Arm has an opportunity to move outside of its smartphone base and solidly into PCs. Instead of backing Qualcomm’s play, Arm has decided to cancel Qualcomm’s license. This move not only appears to be an abuse of power but is extremely ill-time.",
+        "publishDate": "2024-10-28",
+        "author": "Nate Drake",
+        "image": "https://i.ibb.co/F84hV1n/tug-of-war.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Apple Addresses Apple Intelligence: What Microsoft Missed With Copilot",
+        "description": "Microsoft was the first to put AI on devices with its Copilot+ launch months ago. It caught Google and Apple sleeping and seemed poised to own the AI space with the help of OpenAI and ChatGPT. However, Microsoft’s execution was so flawed that it isn’t clear if anyone is even using these Copilot+ features now. Recall is still being held back, and buyers are confused about what is or is not an AI PC, given there are no desktop AI PCs, gaming AI PCs, or workstation AI PCs in the market or on the near-term horizon. This has given both Apple and Google time to close the competitive gap. Apple announced its Apple Intelligence initiative in June and then rolled it out last week in a way that should have more general Apple users using desktop and smartphone AI than Windows users are. Google has also begun to roll out AI features, so both companies are taking advantage of Microsoft’s extremely poor execution. The big difference for Apple is that it has started offering AI experiences in Apple stores with 15-minute sessions so that Apple users and potential users can play with the technology and become more familiar with it. There is no similar effort from either Microsoft or Google.",
+        "descriptionPreview": "Apple is offering in-store AI experiences with 15-minute sessions, allowing users and potential customers to interact with the technology and become more familiar with it. Neither Microsoft nor Google currently offers a similar effort.",
+        "publishDate": "2024-11-04",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/W5NNBjZ/Apple-Intelligence-WWDC24.jpg"
+    },
+    {
+        "id": 11,
+        "title": "AMD Is Making Great Strides in AI, May End Up Merging With Intel",
+        "description": "AMD has made significant strides in AI. Last week, it announced that its first 1-billion parameter large language models are performing exceptionally well. Under the leadership of CEO Lisa Su and with the help of CTO and Executive VP Mark Papermaster, AMD has done an admirable job of fast pivoting after Nvidia and OpenAI’s initial surprise success to create a credible generative AI solution. What makes this incredible is that it took Nvidia around 20 years to get where it is — and although Nvidia clearly plowed the AI field, AMD is planting AI seeds like crazy. While this might be considered a risk to Nvidia’s growth, demand for AI solutions remains high and largely unmet. In a rapidly expanding market, all major players can benefit, and both AMD and Nvidia are well-positioned to succeed. In addition, the U.S. is pushing for AMD and Intel to merge, which could remove a lot of the marketing inefficiencies in the x86 space and allow both firms to better compete in the growing battle for AI dominance, in which China represents the most significant competitive threat.",
+        "descriptionPreview": "AMD has made significant strides in AI. Last week, it announced that its first 1-billion parameter large language models are performing exceptionally well. In addition, the U.S. is pushing for AMD and Intel to merge, which could allow both firms to better compete in the growing battle for AI dominan.",
+        "publishDate": "2024-11-11",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/cJcVx3B/brain-on-chip-2.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Qualcomm’s ‘AI-First’ Vision for the Future of Smart Devices",
+        "description": "At its Snapdragon Summit in October, Qualcomm emphasized its commitment to an “AI-first” future, revealing advances aimed at bringing AI-powered experiences to a broad spectrum of devices, from smartphones and laptops to extended reality (XR) and automotive platforms. Held in Hawaii, the event showcased Qualcomm’s dedication to making artificial intelligence more accessible by developing powerful on-device AI capabilities. This strategic move reflects a vision of technology that’s smarter, more intuitive, and closely connected to consumer priorities like privacy, performance, and energy efficiency.",
+        "descriptionPreview": "The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.",
+        "publishDate": "2024-11-11",
+        "author": "Mark N. Vena",
+        "image": "https://i.ibb.co/ZHKq4xC/snapdragon-summit.jpg"
+    },
+    {
+        "id": 13,
+        "title": "What To Focus on at Microsoft Ignite This Year: Avoiding AI Catastrophes",
+        "description": "Microsoft Ignite is on this week. It’s the company’s massive event focused on IT professionals. While you can attend this event remotely, you should consider attending in person this year because I still see far more AI failures than successes. When AI is deployed successfully, it has a significant positive impact on productivity, yet quality appears to be going in the wrong direction. But not for everyone. Shows like Microsoft Ignite are full of information on products and services. The event is attended by many IT professionals in different industries, with varying levels of AI deployment and very different paths to success. With the intense focus on all things AI, and Microsoft Copilot being one of the most widely spread AI tools, being able to talk to the people who have been successful with this tool, which vendors they worked with to deploy it successfully, and what practices helped their success become golden knowledge. Let’s talk about why this year’s Ignite is important not only to attend — but to attend in person. We’ll close with my Product of the Week: Bluesky, the social media platform I hear people are having the best success with as they move from Twitter/X.",
+        "descriptionPreview": "Because of Microsoft’s leadership in AI, Ignite is one of the few places to get the critical information you need to make better choices and ensure your expensive AI deployment is successful.",
+        "publishDate": "2024-11-18",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/JnrWNh5/Satya-Nadella-Microsoft-Ignite.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Nvidia Blackwell Is One Hot Processor",
+        "description": "Nvidia has faced scrutiny this month because some servers with a whopping 72 Blackwell processors were overheating. The issue arose because some initial OEM deployments were not properly water-cooled, which Lenovo aggressively identified and mitigated with its Neptune warm water-cooling solutions. As AI advances, we’ll need more highly dense, incredibly powerful AI processors, which suggests that air cooling in server rooms may become obsolete. Let’s talk about Blackwell, water cooling, and why Lenovo’s Neptune solution stands out at the moment. We’ll close with my Product of the Week: Microsoft’s Windows 365 Link, which could be the missing link between PCs and terminals that could forever change desktop computing.",
+        "descriptionPreview": "As AI advances, we'll need more highly dense, incredibly powerful AI processors, which suggests that air cooling in server rooms may become obsolete. Let's talk about Blackwell, water cooling, and why Lenovo's Neptune solution stands out at the moment.",
+        "publishDate": "2024-11-25",
+        "author": "Rob Enderle",
+        "image": "https://i.ibb.co/D4jHyPm/nvidia-blackwell-architecture.jpg"
+    },
+    {
+        "id": 15,
+        "title": "CAS AR: Applied Technology R&D",
+        "description": "The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.",
+        "descriptionPreview": "The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.",
+        "publishDate": "2024-11-26",
+        "author": "Daniel L. Ekeberg",
+        "image": "../assets/image3.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Institute of Advanced Technology",
+        "description": "The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.",
+        "descriptionPreview": "The Institute of Advanced Technology and Research and Development focuses on pioneering innovation through cutting-edge research and technological advancements. It serves as a hub for developing transformative solutions that address global challenges and drive progress across industries.",
+        "publishDate": "2024-11-26",
+        "author": "Daniel L. Ekeberg",
+        "image": "../assets/image2.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Research and Development",
+        "description": "Research and Development (R&D) is a cornerstone of progress and innovation, playing a critical role in advancing knowledge, technology, and societal well-being. It encompasses a diverse range of systematic activities aimed at exploring new ideas, solving complex problems, and transforming concepts into tangible applications. R&D often begins with basic research, which seeks to deepen understanding of fundamental principles and phenomena without immediate commercial goals. This foundational knowledge serves as the bedrock for applied research, which focuses on addressing specific challenges or creating practical solutions tailored to real-world needs. From there, experimental development takes these ideas a step further, testing and refining prototypes, processes, or systems to ensure they are viable for large-scale implementation. The impact of R&D extends across industries and disciplines, from engineering and technology to medicine, energy, and environmental sciences. It drives the creation of innovative products, such as advanced medical treatments, renewable energy technologies, and cutting-edge consumer electronics. R&D also plays a crucial role in improving existing systems, enhancing efficiency, sustainability, and affordability. By fostering collaboration among scientists, engineers, and industry professionals, R&D accelerates the pace of discovery and ensures that breakthroughs are effectively translated into practical benefits for society. Organizations that invest in R&D not only gain a competitive edge but also contribute to long-term economic growth, job creation, and global development. Governments, private companies, and academic institutions recognize the transformative potential of R&D and allocate significant resources to support its advancement. Beyond economic benefits, R&D addresses critical global challenges, such as climate change, public health crises, and resource scarcity, by driving the development of innovative and sustainable solutions.",
+        "descriptionPreview": "The systematic exploration and creation of new knowledge, technologies, or processes to innovate and improve products, services, or systems. It drives growth and competitive advantage by transforming ideas into practical solutions.",
+        "publishDate": "2024-11-27",
+        "author": "Daniel L. Ekeberg",
+        "image": "../assets/image1.jpg"
+    }
+]
