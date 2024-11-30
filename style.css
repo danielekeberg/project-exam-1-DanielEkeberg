@@ -100,7 +100,8 @@ main {
     background: #ECECEC;
     justify-content: center;
     margin: 0 20%;
-    border: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
 }
 
 .footer {
@@ -163,6 +164,10 @@ article {
     border: 1px solid #C6C0C0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
+
+article a {
+    text-decoration: none;
 }
 
 article:hover {
@@ -567,13 +572,12 @@ article a {
 
 .latest-post {
     display: flex;
-    background: #010007;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    margin: 0 0 25px;
+    margin: 0 0 10px;
     padding: 40px;
-    color: #ECECEC;
+    color: #212121;
 }
 
 .intro {
@@ -585,6 +589,8 @@ article a {
     display: block;
     margin: 50px 15% ;
     color: #212121;
+    border-bottom: 1px solid #212121;
+    border-top: 1px solid #212121;
 }
 
 .intro h2 {
@@ -596,16 +602,75 @@ article a {
     padding: 40px;
 }
 
-.intro h3 {
+.introduction h3 {
     margin: 50px;
     text-align: center;
     font-weight: 400;
 }
 
-.intro p {
+.introduction p {
     margin: 30px 0;
 }
 
 .introduction h3 span {
     text-decoration: underline;
+}
+
+.post {
+    display: block;
+    gap: 20px;
+}
+
+.post img {
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post .text h2 {
+    font-size: 36px;
+    color: #212121;
+    margin: 40px 15% 20px 15%;
+}
+
+.post .text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #212121;
+    margin: 25px 15%;
+}
+
+.post .text .author {
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+    margin: 25px;
+}
+
+#goHome {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto 0;
+    background: #212121;
+    color: #ECECEC;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#goHome:hover {
+    background: #313131;
+}
+
+#goHome:active {
+    background: #424242;
+}
+
+.post-btn a {
+    text-decoration: none;
 }
