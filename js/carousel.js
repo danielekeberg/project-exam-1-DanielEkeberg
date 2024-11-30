@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const postElement = document.createElement("div");
     postElement.className = "carousel-item";
     postElement.innerHTML = `
-        <a href="post.html?id=${post.id}">
+        <a href="./post/index.html?id=${post.id}">
           <img src="${post.image}" alt="${post.title}">
           <div class="text">
               <h2>${post.title}</h2>
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const postElement = document.createElement("div");
     postElement.className = "carousel-item";
     postElement.innerHTML = `
-        <a href="post.html?id=${post.id}">
+        <a href="./post/index.html?id=${post.id}">
           <img src="${post.image}" alt="${post.title}">
           <div class="text">
               <h2>${post.title}</h2>
