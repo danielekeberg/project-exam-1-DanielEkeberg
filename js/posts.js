@@ -14,6 +14,8 @@ fetch('../API/techpost.json')
         posts.sort((a, b) => new Date(b.date) - new Date(a.date));
         updatePostCounter();
         loadPosts();
+        sortPosts('alphabetical');
+        updateActiveSort('alphabetical');
     })
     .catch(error => console.error('Error fetching the API:', error));
 
@@ -30,6 +32,9 @@ function loadPosts() {
                     <h2>${tech.title}</h2>
                     <p>${tech.descriptionPreview}</p>
                     <p class="author">${tech.publishDate} ${tech.author}<p>
+                    <div class="ifLoggedIn">
+                        <button class="default-btn" id="editPost">Edit</button>
+                    </div>
                 </div>
             </div>
         </article>
