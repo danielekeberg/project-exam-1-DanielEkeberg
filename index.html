@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
-    <script src="/js/posts.js" defer></script>
+    <script src="/js/all-posts.js" defer></script>
     <script src="/js/hamburger.js" defer></script>
     <script src="/js/carousel.js" defer></script>
     <title>HotView Labs</title>
@@ -20,7 +20,7 @@
         </div>
         <nav class="nav-buttons">
             <a href="/" class="active">FEED</a>
-            <a href="/post.html" id="post-btn">POST</a>
+            <a href="/add-post.html" id="post-btn">POST</a>
             <a href="/account/login.html">LOGIN</a>
         </nav>
     </header>
@@ -47,7 +47,7 @@
                     analytics, and forward-thinking perspectives. Join us on this journey as we
                     empower tech leaders like you to stay ahead in an ever-evolving landscape.
                 </p>
-                <h3>Welcome to the forefront of innovation. Welcome to <strong>HotView Labs</strong></h3>
+                <h3>Welcome to the <span>forefront of innovation</span>. Welcome to <strong>HotView Labs</strong></h3>
             </div>
         </div>
 
@@ -56,9 +56,13 @@
         </div>
 
         <article>
-            <div id="carousel-container"></div>
-            <button id="prev-btn" class="carousel-control left">◀</button>
-            <button id="next-btn" class="carousel-control right">▶</button>
+            <div id="carousel-container">
+
+            </div>
+            <div class="carousel-btn">
+                <button id="prev-btn" class="carousel-control left">Previous post</button>
+                <button id="next-btn" class="carousel-control right">Next post</button>
+            </div>
         </article>
 
         <section class="content">
