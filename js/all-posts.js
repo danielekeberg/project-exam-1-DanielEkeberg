@@ -26,17 +26,19 @@ function loadPosts() {
     nextPosts.forEach(tech => {
         const techHTML = `
         <article>
-            <div class="tech">
-                <img src="${tech.image}" alt="${tech.title}">
-                <div class="text">
-                    <h2>${tech.title}</h2>
-                    <p>${tech.descriptionPreview}</p>
-                    <p class="author">${tech.publishDate} ${tech.author}<p>
-                    <div class="ifLoggedIn">
-                        <button class="default-btn" id="editPost">Edit</button>
+            <a href="post.html?id=${tech.id}">
+                <div class="tech">
+                    <img src="${tech.image}" alt="${tech.title}">
+                    <div class="text">
+                        <h2>${tech.title}</h2>
+                        <p>${tech.descriptionPreview}</p>
+                        <p class="author">${tech.publishDate} ${tech.author}<p>
+                        <div class="ifLoggedIn">
+                            <button class="default-btn" id="editPost">Edit</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </article>
         `;
         techContainer.innerHTML += techHTML;
