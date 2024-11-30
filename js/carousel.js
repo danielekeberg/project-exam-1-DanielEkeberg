@@ -20,12 +20,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const postElement = document.createElement("div");
     postElement.className = "carousel-item";
     postElement.innerHTML = `
-        <img src="${post.image}" alt="${post.title}">
-        <div class="text">
-            <h2>${post.title}</h2>
-            <p>${post.descriptionPreview}</p>
-            <p class="author">${post.publishDate} ${post.author}</p>
-        </div>
+        <a href="post.html?id=${post.id}">
+          <img src="${post.image}" alt="${post.title}">
+          <div class="text">
+              <h2>${post.title}</h2>
+              <p>${post.descriptionPreview}</p>
+              <p class="author">${post.publishDate} ${post.author}</p>
+          </div>
+        </a>
     `;
     carouselContainer.appendChild(postElement);
   });
@@ -37,12 +39,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const postElement = document.createElement("div");
     postElement.className = "carousel-item";
     postElement.innerHTML = `
-        <img src="${post.image}" alt="${post.title}">
-        <div class="text">
-            <h2>${post.title}</h2>
-            <p>${post.descriptionPreview}</p>
-            <p>${post.publishDate} ${post.author}</p>
-        </div>
+        <a href="post.html?id=${post.id}">
+          <img src="${post.image}" alt="${post.title}">
+          <div class="text">
+              <h2>${post.title}</h2>
+              <p>${post.descriptionPreview}</p>
+              <p>${post.publishDate} ${post.author}</p>
+          </div>
+        </a>
     `;
     carouselContainer.appendChild(postElement);
 }
