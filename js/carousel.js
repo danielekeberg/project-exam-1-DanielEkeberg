@@ -48,8 +48,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 }
 
   function updateCarousel() {
-      const offset = -(currentIndex * 100);
-      carouselContainer.style.transform = `translateX(${offset}%)`;
+    const offset = (currentIndex * 100);
   }
 
   nextBtn.addEventListener("click", () => {
