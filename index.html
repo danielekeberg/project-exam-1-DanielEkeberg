@@ -9,50 +9,59 @@
     <link rel="stylesheet" href="/style.css">
     <script src="/js/posts.js" defer></script>
     <script src="/js/hamburger.js" defer></script>
+    <script src="/js/carousel.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
 <body> 
     <header>
         <div class="logo">
-            <a href="#"><h3>HotView Labs</h3></a>
+            <a href="/"><h3>HotView Labs</h3></a>
         </div>
         <nav class="nav-buttons">
             <a href="/" class="active">FEED</a>
-            <a href="/post.html">POST</a>
-            <a href="/edit.html">EDIT</a>
+            <a href="/post.html" id="post-btn">POST</a>
             <a href="/account/login.html">LOGIN</a>
         </nav>
     </header>
 
     <main>
-        <div class="carousel">
-            <button class="carousel-control left">◀</button>
-            <div class="carousel-images">
-                <div class="carousel-item">
-                    <a href="/research.html">
-                        <img src="/assets/image1.jpg" alt="Research and Development">
-                        <p>Research and Development</p>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#">
-                        <img src="/assets/image2.jpg" alt="Institute of Advanced Technology">
-                        <p>Institute of Advanced Technology</p>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#">
-                        <img src="/assets/image3.jpg" alt="CAS AR: Applied Technology R&D">
-                        <p>CAS AR: Applied Technology R&D</p>
-                    </a>
-                </div>
+        <div class="intro">
+            <h2>Welcome to HotView Labs</h2>
+            <div class="introduction">
+                <p>
+                    At <strong>HotView Labs</strong>, innovation meets insight.
+                    With a team of <strong>30 passionate tech researchers and developers</strong>
+                    spread across the globe, we are dedicated to shaping the future of technology.
+                    Our mission is simple yet impactful: to deliver the <strong>most accurate, reliable,
+                    and up-to-date insights</strong> to tech leaders worldwide.
+                </p>
+                <p>
+                    As a hub for <strong>cutting-edge research and development</strong>, HotView Labs
+                    dives deep into the world if technology, exploring groundbreaking advancements
+                    and uncovering trends that define tomorrow. Whether you're navigating the complexities
+                    of AI, robotics, sustainable tech, or emerging digital innovations, we provide
+                    the clarity and expertise to guide your decisions.
+                </p>
+                <p>Our blog is your gateway to a world of knowledge, where we share curated insights,
+                    analytics, and forward-thinking perspectives. Join us on this journey as we
+                    empower tech leaders like you to stay ahead in an ever-evolving landscape.
+                </p>
+                <h3>Welcome to the forefront of innovation. Welcome to <strong>HotView Labs</strong></h3>
             </div>
-            <button class="carousel-control right">▶</button>
         </div>
 
+        <div class="latest-post">
+            <h2>Check out one of our latest posts!</h2>
+        </div>
+
+        <article>
+            <div id="carousel-container"></div>
+            <button id="prev-btn" class="carousel-control left">◀</button>
+            <button id="next-btn" class="carousel-control right">▶</button>
+        </article>
+
         <section class="content">
-            
             <div id="hamburger-menu">
                 <div id="hamburger-icon">&#9776;</div>
                 <ul id="dropdown-menu" class="hidden">
@@ -60,6 +69,7 @@
                     <li id="sort-oldest">Oldest</li>
                     <li id="sort-alphabetical">Alphabetical</li>
                 </ul>
+                <span>Sorting by: <span id="sortOrder">Alphabetical</span></span>
             </div>
 
             <div id="tech-container"></div>
@@ -69,12 +79,17 @@
         </section>
 
     </main>
-    <footer>
-        <p>Test</p>
-        <p>Test</p>
-        <p>Test</p>
-        <p>Test</p>
-        <p>Test</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Hotview Labs</h2>
+            <p>Empowering Tech Leaders Worldwide</p>
+            <p>📍 Wordwide</p>
+            <div class="footer-links">
+                📧 <a href="#">Contact Us</a> |
+                🌐 <a href="#">Privacy Policy</a> |
+                🔗 <a href="#">Terms of Service</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
