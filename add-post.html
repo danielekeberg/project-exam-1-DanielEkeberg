@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/greentech-xxl-light.png">
+    <link rel="stylesheet" href="/style.css">
+    <title>HotView Labs</title>
+</head>
+
+<body> 
+    <header>
+        <div class="logo">
+            <a href="../"><h3>HotView Labs</h3></a>
+        </div>
+        <nav class="nav-buttons">
+            <a href="/">FEED</a>
+            <a href="/post.html" class="active">POST</a>
+            <a href="/edit.html">EDIT</a>
+            <a href="/account/login.html">LOGIN</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="create-blog-container">
+            <div class="create-blog">
+                <h2>CREATE BLOG</h2>
+                <div class="create-form">
+                    <label for="title">Title <span class="star">*</span></label>
+                    <input type="text" id="title" required placeholder="Enter a title">
+                </div>
+                <div class="create-form">
+                    <label for="paragraph">Paragraph <span class="star">*</span></label>
+                    <textarea type="text" id="paragraph" required placeholder="Enter a paragraph"></textarea>
+                </div>
+                <div class="image-upload">
+                    <label for="image">Image <span class="star">*</span></label>
+                    <button id="image-btn">Upload image</button>
+                    <div class="success-status">
+                        <img src="/assets/checkmark.png" id="success-img" alt="Success Checkmark">
+                        <p>imageplaceholder.png</p>
+                    </div>
+                    <div class="error-status">
+                        <img src="/assets/x-mark.png" id="error-img" alt="Error">
+                        <p>error</p>
+                    </div>
+                </div>
+                <div class="blog-btn">
+                    <button class="edit-post">PUBLISH POST</button>
+                    <button class="delete-post">CANCEL</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Hotview Labs</h2>
+            <p>Empowering Tech Leaders Worldwide</p>
+            <p>📍 Wordwide</p>
+            <div class="footer-links">
+                📧 <a href="#">Contact Us</a> |
+                🌐 <a href="#">Privacy Policy</a> |
+                🔗 <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
