@@ -4,6 +4,7 @@ const postBtn = document.getElementById("post-btn");
 const logoutButton = document.getElementById("logoutButton");
 const editPost = document.querySelector(".ifLoggedIn");
 
+
 function isLoggedIn() {
     const token = localStorage.getItem("authToken");
     if (token) {
@@ -24,6 +25,7 @@ function ifLoggedIn() {
         loginBtn.style.display = "block";
         logoutBtn.style.display = "none";
         logoutButton.style.display = "none";
+        createPost.style.display = "none";
     }
 }
 
