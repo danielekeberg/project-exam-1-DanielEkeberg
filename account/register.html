@@ -8,6 +8,7 @@
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
     <script src="../js/register.js" defer></script>
+    <script src="../js/nav-hamburger.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -16,10 +17,17 @@
         <div class="logo">
             <a href="../"><h3>HotView Labs</h3></a>
         </div>
-        <nav class="nav-buttons">
-            <a href="/">FEED</a>
-            <a href="/add-post.html" id="post-btn">POST</a>
-            <a href="/account/login.html">LOGIN</a>
+        <nav class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-buttons" id="navButtons">
+                <a href="/">FEED</a>
+                <a href="/add-post.html" id="post-btn" class="active">ADD POST</a>
+                <a id="loginBtn" href="/account/login.html">LOGIN</a>
+            </div>
         </nav>
     </header>
 
