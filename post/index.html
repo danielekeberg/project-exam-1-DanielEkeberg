@@ -7,14 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
-    <script src="../js/post.js"></script>
-    <script src="../js/login.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/logout.js"></script>
-    <script src="js/getPosts.js" defer></script>
-    <script src="js/createPost.js" defer></script>
-    <script src="js/editPost.js" defer></script>
-    <script src="js/deletePost.js" defer></script>
+    <script src="../js/post.js" defer></script>
+    <script src="../js/login.js" defer></script>
+    <script src="../js/index.js" defer></script>
+    <script src="../js/logout.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -27,14 +23,15 @@
             <a href="/">FEED</a>
             <a href="/add-post.html" id="post-btn">ADD POST</a>
             <a id="loginBtn" href="/account/login.html">LOGIN</a>
-            <a id="logoutBtn" href="/account/login.html">LOGOUT</a>
+            <a id="logoutBtn">LOGOUT</a>
         </nav>
     </header>
 
     <main>
         <div id="post-container"></div>
-        <!-- <div id="postsContainer"></div> -->
-
+        <div class="ifLoggedIn">
+            <button id="edit-post">EDIT POST</button>
+        </div>
     </main>
 
     <script src="post.js"></script>
