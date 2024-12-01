@@ -71,6 +71,11 @@ nav a {
     text-decoration: none;
     font-family: 'Inria Sans', sans-serif;
     transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#logoutBtn {
+    display: block;
 }
 
 .active {
@@ -85,10 +90,6 @@ nav a:hover {
 .active:hover {
     background: #0c0c0c !important;
     color: #ECECEC !important;
-}
-
-.nav-buttons img {
-    height: 15px;
 }
 
 #post-btn {
@@ -284,7 +285,8 @@ article a {
     color: #BD5757;
 }
 
-.login-form button {
+.login-form button,
+.login-form a p {
     display: block;
     margin-bottom: 5px;
     width: 100%;
@@ -314,6 +316,16 @@ article a {
 }
 
 .signup-button:hover {
+    background: #D9D9D9;
+}
+
+.login-form a p {
+    border: 1px solid #8C8C8C;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login-form a p:hover {
     background: #D9D9D9;
 }
 
@@ -528,7 +540,7 @@ article a {
 }
 
 .ifLoggedIn {
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 
@@ -562,12 +574,15 @@ article a {
     font-size: 14px;
     border: 1px solid #212121;
     border-radius: 4px;
-    background: #E0E0E0;
+    background: #212121;
     padding: 5px;
+    color: #ECECEC;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-btn button:hover {
-    background: #D9D9D9;
+    background: #4e4e4e;
 }
 
 .latest-post {
@@ -676,6 +691,18 @@ article a {
     text-decoration: none;
 }
 
+.no-post {
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+    font-size: 20px;
+}
+
+.login-form a p {
+    color: #212121;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     body {
         background: #212121;
@@ -753,10 +780,6 @@ article a {
         text-align: center;
         font-size: 16px;
         margin: 20px;
-    }
-
-    #editPost {
-        display: none;
     }
 
     .content #post-counter{
