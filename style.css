@@ -817,13 +817,60 @@ article a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 25px;   
 }
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #212121;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.nav-buttons .active {
+    color: #ECECEC;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    padding: 5px;
+    height: 30px;
+}
+
+@media (max-width: 1100px) {
+    .logo h3 {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         background: #212121;
     }
 
     .logo h3 {
-        font-size: 16px;
+        font-size: 20px;
+        padding: 10px;
+        margin: 20px 0;
         width: 140px;
     }
 
@@ -904,4 +951,35 @@ article a {
     .post .text p {
         color: #ECECEC;
     }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-buttons {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .nav-buttons.active {
+        display: flex;
+    }
+
+    #createPostForm {
+        margin: 20px;
+    }
+
+    .login-container,
+    .register-container {
+        width: 100%;
+    }
+
+
 }
