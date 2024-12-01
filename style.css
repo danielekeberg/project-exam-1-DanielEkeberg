@@ -600,6 +600,7 @@ article a {
     text-align: center;
     text-transform: uppercase;
     padding: 40px;
+    letter-spacing: 5px;
 }
 
 .introduction h3 {
@@ -673,4 +674,88 @@ article a {
 
 .post-btn a {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: #212121;
+    }
+
+    .logo h3 {
+        font-size: 16px;
+        width: 140px;
+    }
+
+    .intro h2 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .latest-post {
+        color: #ECECEC;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        width: 80%;
+        border-top: 1px solid #ECECEC;
+        border-bottom: 1px solid #ECECEC;
+    }
+
+    nav a {
+        width: 75px;
+    }
+
+    main {
+        background: #010007;
+        margin: 0;
+    }
+
+    .intro {
+        display: flex;
+    }
+
+    .carousel-item .text h2 {
+        font-size: 15px;
+    }
+
+    .carousel-item .text p {
+        display: none;
+    }
+
+    .introduction {
+        border-top: 1px solid #ECECEC;
+        border-bottom: 1px solid #ECECEC;
+        color: #ECECEC;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .introduction h3 {
+        font-size: 16px;
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    article .tech .text p {
+        display: none;
+    }
+
+    article {
+        margin: 48px;
+    }
+
+    article .tech .text h2 {
+        text-align: center;
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    #editPost {
+        display: none;
+    }
+
+    .content #post-counter{
+        color: #ECECEC;
+    }
 }
