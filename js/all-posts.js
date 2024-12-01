@@ -26,7 +26,7 @@ function loadPosts() {
     nextPosts.forEach(tech => {
         const techHTML = `
         <article>
-            <a href="./post/index.html?id=${tech.id}">
+            <a href="./post/?id=${tech.id}">
                 <div class="tech">
                     <img src="${tech.image}" alt="${tech.title}">
                     <div class="text">
