@@ -30,7 +30,6 @@ document.getElementById("registerForm").addEventListener("submit", async (event)
                     errorRegister.style.display = "none";
                 }, 2000);
             } else {
-                // alert(`Registration failed: ${errorMessages.join(", ")}`);
                 errorRegister.style.display = "block";
                 errorRegister.innerHTML = `<p>Registration failed: ${errorMessages.join(", ")}</p>`;
                 setTimeout(() => {
