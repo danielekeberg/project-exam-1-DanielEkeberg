@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   let currentIndex = 0;
   let posts = [];
+  let autoSwitchInterval;
 
   async function fetchPosts() {
       const response = await fetch("../API/techpost.json");
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       posts = data.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate)).slice(0, 3);
       renderPosts();
       updateCarousel();
+      startAutoSwitch();
   }
 
   function renderPosts() {
@@ -55,16 +57,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     const offset = (currentIndex * 100);
   }
 
+  function startAutoSwitch() {
+    stopAutoSwitch();
+    autoSwitchInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % posts.length;
+      updateCarousel();
+      renderPost(currentIndex)
+    }, 5000);
+  }
+
+  function stopAutoSwitch() {
+    if (autoSwitchInterval) {
+      clearInterval(autoSwitchInterval);
+    }
+  }
+
   nextBtn.addEventListener("click", () => {
+    stopAutoSwitch();
     currentIndex = (currentIndex + 1) % posts.length;
     updateCarousel();
     renderPost(currentIndex)
+    startAutoSwitch();
   });
 
   prevBtn.addEventListener("click", () => {
+    stopAutoSwitch();
     currentIndex = (currentIndex - 1 + posts.length) % posts.length;
     updateCarousel();
     renderPost(currentIndex)
+    startAutoSwitch();
   });
 
   await fetchPosts();
