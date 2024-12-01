@@ -27,39 +27,36 @@
         <div class="register-container">
             <h2>REGISTER</h2>
             <div class="login-form">
-                <div class="form-group">
-                    <label for="username">Username <span class="star">*</span></label>
-                    <input type="text" id="username" required placeholder="Enter username">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email <span class="star">*</span></label>
-                    <input type="text" id="email" required placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password <span class="star">*</span></label>
-                    <input type="password" id="password" required placeholder="Enter password">
-                </div>
-                <button id="loginBtn" class="login-button">REGISTER</button>
-                <p>ALREADY HAVE AN ACCOUNT?</p>
-                <a href="../account/login.html"><button class="signup-button">LOGIN</button></a>
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="name">Username <span class="star">*</span></label>
+                        <input type="text" id="name" required placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="star">*</span></label>
+                        <input type="text" id="email" required placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <span class="star">*</span></label>
+                        <input type="password" id="password" required placeholder="Enter password">
+                    </div>
+                    <button type="submit" id="loginBtn" class="login-button">REGISTER</button>
+                    <p>ALREADY HAVE AN ACCOUNT?</p>
+                    <a href="../account/login.html">
+                         <p>LOGIN</p>
+                    </a>
+                </form>
                 <div class="login-result">
-                    <div id="error-message" class="error-message">
+                    <div id="error-register" class="error-message">
                         <p>Invalid credentials</p>
                     </div>
-                    <div id="success-message" class="success-message">
-                        <p>Login successful</p>
+                    <div id="success-register" class="success-message">
+                        <p>Registration successful</p>
                     </div>
                 </div>
             </div>
         </div>    
     </div>
-
-    <!-- <form id="registerForm">
-        <input type="text" id="username" placeholder="Username" minlength="4" maxlength="16" required>
-        <input type="email" id="email" placeholder="Email" required>
-        <input type="password" id="password" placeholder="Password" minlength="8" maxlength="16" required>
-        <button type="submit">Register</button>
-    </form> -->
 
     <footer class="footer">
         <div class="footer-content">
