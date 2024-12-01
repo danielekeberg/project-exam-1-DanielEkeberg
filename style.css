@@ -703,6 +703,32 @@ article a {
     text-align: center;
 }
 
+#noAccess {
+    display: none;
+}
+
+#noAccess h2,
+#noAccess a {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#noAccess a {
+    text-decoration: none;
+    color: #ECECEC;
+    background: #212121;
+    margin: 0 auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#noAccess a:hover {
+    background: #0c0c0c;
+}
+
 @media (max-width: 768px) {
     body {
         background: #212121;
