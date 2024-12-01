@@ -694,7 +694,7 @@ article a {
     .latest-post {
         color: #ECECEC;
         text-transform: uppercase;
-        font-size: 10px;
+        font-size: 8px;
         margin: 0 auto;
         letter-spacing: 2px;
         width: 80%;
@@ -713,6 +713,10 @@ article a {
 
     .intro {
         display: flex;
+    }
+
+    #carousel-container {
+        height: 205px;
     }
 
     .carousel-item .text h2 {
@@ -756,6 +760,11 @@ article a {
     }
 
     .content #post-counter{
+        color: #ECECEC;
+    }
+
+    .post .text h2,
+    .post .text p {
         color: #ECECEC;
     }
 }
