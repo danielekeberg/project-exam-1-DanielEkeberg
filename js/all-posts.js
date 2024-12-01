@@ -33,9 +33,6 @@ function loadPosts() {
                         <h2>${tech.title}</h2>
                         <p>${tech.descriptionPreview}</p>
                         <p class="author">${tech.publishDate} ${tech.author}<p>
-                        <div class="ifLoggedIn">
-                            <button class="default-btn" id="editPost">Edit</button>
-                        </div>
                     </div>
                 </div>
             </a>
