@@ -7,8 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/create.css">
     <script src="../js/index.js" defer></script>
     <script src="../js/checkAuth.js" defer></script>
+    <script src="../js/createPost.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -30,35 +32,27 @@
             <h2>You must be logged in to access this page.</h2>
             <a href="/account/login.html">Go to Login</a>
         </div>
-        <div class="create-blog-container" id="createPostContainer">
-            <div class="create-blog">
-                <h2>CREATE BLOG</h2>
-                <div class="create-form">
-                    <label for="title">Title <span class="star">*</span></label>
-                    <input type="text" id="title" required placeholder="Enter a title">
-                </div>
-                <div class="create-form">
-                    <label for="paragraph">Paragraph <span class="star">*</span></label>
-                    <textarea type="text" id="paragraph" required placeholder="Enter a paragraph"></textarea>
-                </div>
-                <div class="image-upload">
-                    <label for="image">Image <span class="star">*</span></label>
-                    <button id="image-btn">Upload image</button>
-                    <div class="success-status">
-                        <img src="/assets/checkmark.png" id="success-img" alt="Success Checkmark">
-                        <p>imageplaceholder.png</p>
-                    </div>
-                    <div class="error-status">
-                        <img src="/assets/x-mark.png" id="error-img" alt="Error">
-                        <p>error</p>
-                    </div>
-                </div>
-                <div class="blog-btn">
-                    <button class="edit-post">PUBLISH POST</button>
-                    <button class="delete-post">CANCEL</button>
-                </div>
-            </div>
-        </div>
+
+        <form id="createPostForm">
+            <h2>CREATE BLOG</h2>
+            <label for="postTitle">Title:</label>
+            <input type="text" id="postTitle" name="postTitle" placeholder="Enter the post title" required/>
+            
+            <label for="postDescription">Description:</label>
+            <textarea id="postDescription" name="postDescription" placeholder="Enter a brief description" rows="4" required></textarea>
+            
+            <label for="postAuthor">Author:</label>
+            <input type="text" id="postAuthor" name="postAuthor" placeholder="Enter the author name" required/>
+            
+            <label for="postDate">Date:</label>
+            <input type="date" id="postDate" name="postDate" required/>
+            
+            <label for="postImageUrl">Image URL:</label>
+            <input type="url" id="postImageUrl" name="postImageUrl" placeholder="Enter the image URL" required/>
+            
+            <button type="submit">Create Post</button>
+        </form>
+
     </main>
     <footer class="footer">
         <div class="footer-content">
