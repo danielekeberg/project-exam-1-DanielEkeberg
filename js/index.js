@@ -2,7 +2,7 @@ const loginBtn = document.getElementById("loginBtn");
 const logoutBtn = document.getElementById("logoutBtn");
 const postBtn = document.getElementById("post-btn");
 const logoutButton = document.getElementById("logoutButton");
-const editPost = document.querySelector(".ifLoggedIn");
+const editBtn = document.querySelector(".ifLoggedIn");
 
 
 function isLoggedIn() {
@@ -19,13 +19,14 @@ function ifLoggedIn() {
         postBtn.style.display = "block";
         loginBtn.style.display = "none";
         logoutBtn.style.display = "block";
-        editPost.style.display = "block";
+        editBtn.style.display = "flex";
     } else {
         postBtn.style.display = "none";
         loginBtn.style.display = "block";
         logoutBtn.style.display = "none";
         logoutButton.style.display = "none";
         createPost.style.display = "none";
+        editPost.style.display = "none";
     }
 }
 
