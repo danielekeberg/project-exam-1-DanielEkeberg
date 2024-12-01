@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </div>
                     <p class="author">${post.publishDate} ${post.author}</p>
                 </div>
-                
             </div>
         `;
     } catch (error) {
