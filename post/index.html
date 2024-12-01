@@ -11,6 +11,7 @@
     <script src="../js/login.js" defer></script>
     <script src="../js/index.js" defer></script>
     <script src="../js/logout.js" defer></script>
+    <script src="../js/postDetails.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -28,10 +29,27 @@
     </header>
 
     <main>
-        <div id="post-container"></div>
-        <div class="ifLoggedIn">
-            <button id="edit-post">EDIT POST</button>
+        <div id="postDetails"></div>
+        <button id="editPostButton" style="display: none;">Edit Post</button>
+        <div id="editPostForm" style="display: none;">
+            <h2>Edit Post</h2>
+            <form id="editForm">
+                <label for="editTitle">Title:</label>
+                <input type="text" id="editTitle" name="editTitle" required>
+
+                <label for="editDescription">Description:</label>
+                <textarea id="editDescription" name="editDescription" rows="4" required></textarea>
+
+                <label for="editImageUrl">Image URL:</label>
+                <input type="url" id="editImageUrl" name="editImageUrl" required>
+                <div class="button-group">
+                    <button type="submit">Save Changes</button>
+                    <button type="button" id="deletePostButton" >Delete Post</button>
+                </div>
+            </form>
         </div>
+
+        <div id="post-container"></div>
     </main>
 
     <script src="post.js"></script>
