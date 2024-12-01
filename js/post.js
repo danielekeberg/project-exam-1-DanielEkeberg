@@ -5,7 +5,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const postId = params.get('id');
 
     if(!postId) {
-        postContainer.innerHTML = "<p>Post not found. Pease go back to the main page.</p>";
+        postContainer.innerHTML = `
+            <div class="no-post">
+                <p>Post not found. Please go back to the main page.</p>
+            </div>
+            `;
         return;
     }
 
@@ -15,7 +19,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         const post = posts.find(post => post.id === parseInt(postId));
 
         if (!post) {
-            postContainer.innerHTML = "<p>Post not found. Please go back to the main page.</p>";
+            postContainer.innerHTML = `
+            <div class="no-post">
+                <p>Post not found. Please go back to the main page.</p>
+            </div>
+            `;
             return;
         }
 
@@ -29,6 +37,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <a href="../"><button id="goHome">Home</button></a>
                     </div>
                     <p class="author">${post.publishDate} ${post.author}</p>
+                    <div class="ifLoggedIn">
+                        <button id="editPost">Edit Post</button>
+                        <button id="deletePost">Delete Post</button>
+                    </div>
                 </div>
             </div>
         `;
