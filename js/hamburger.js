@@ -11,8 +11,23 @@ function updateActiveSort(activeId) {
     items.forEach(item => item.classList.remove('active'));
 
     const activeItem = document.getElementById(`sort-${activeId}`);
-    activeItem.classList.add('active');
+    if (activeItem) activeItem.classList.add('active');
 }
+
+function sortPosts(criteria) {
+    let sortedPosts;
+
+    if (criteria === 'newest') {
+        sortedPosts = [...posts].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+    } else if (criteria === 'oldest') {
+        sortedPosts = [...posts].sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+    } else if (criteria === 'alphabetical') {
+        sortedPosts = [...posts].sort((a, b) => a.title.localeCompare(b.title));
+    }
+
+    renderPosts(sortedPosts);
+}
+
 
 document.getElementById('sort-newest').addEventListener('click', () => {
     updateActiveSort('newest');
@@ -33,4 +48,4 @@ document.getElementById('sort-alphabetical').addEventListener('click', () => {
     currentSort.textContent = 'Alphabetical';
     sortPosts('alphabetical');
     dropdownMenu.classList.remove('visible');
-})
+});
