@@ -7,14 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="./style.css">
-    <script src="/js/all-posts.js" defer></script>
     <script src="/js/hamburger.js" defer></script>
     <script src="/js/carousel.js" defer></script>
-    <script src="/js/posts.js" defer></script>
     <script src="/js/login.js" defer></script>
     <script src="/js/index.js" defer></script>
     <script src="/js/getPosts.js" defer></script>
-    <script src="/js/authFetch.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -38,7 +35,7 @@
 
         <div class="latest-post">
             <h2>Check out one of our latest posts</h2>
-        </div>
+        </div>   
 
         <article id="carousel-article">
                 <div id="carousel-container"></div>
@@ -47,6 +44,10 @@
                     <button id="next-btn" class="carousel-control right">Next post</button>
                 </div>
         </article>
+
+        <div id="carousel">
+            <div id="carouselInner" class="carousel-inner"></div>
+        </div>
 
         <div class="introduction">
             <p>
@@ -81,7 +82,7 @@
                 <span>Sorting by: <span id="sortOrder">Alphabetical</span></span>
             </div>
 
-            <div id="tech-container"></div>
+            <div id="postsContainer"></div>     
             <button id="read-more">READ MORE</button>
 
             <div id="post-counter"></div>
