@@ -8,6 +8,7 @@
     <link rel="icon" href="/assets/greentech-xxl-light.png">
     <link rel="stylesheet" href="/style.css">
     <script src="../js/index.js" defer></script>
+    <script src="../js/checkAuth.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -25,7 +26,11 @@
     </header>
 
     <main>
-        <div class="create-blog-container">
+        <div id="noAccess">
+            <h2>You must be logged in to access this page.</h2>
+            <a href="/account/login.html">Go to Login</a>
+        </div>
+        <div class="create-blog-container" id="createPostContainer">
             <div class="create-blog">
                 <h2>CREATE BLOG</h2>
                 <div class="create-form">
