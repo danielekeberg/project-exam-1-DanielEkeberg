@@ -12,6 +12,7 @@
     <script src="/js/login.js" defer></script>
     <script src="/js/index.js" defer></script>
     <script src="/js/getPosts.js" defer></script>
+    <script src="/js/nav-hamburger.js" defer></script>
     <title>HotView Labs</title>
 </head>
 
@@ -20,11 +21,18 @@
         <div class="logo">
             <a href="/"><h3>HotView Labs</h3></a>
         </div>
-        <nav class="nav-buttons">
-            <a href="/" class="active">FEED</a>
-            <a href="/add-post.html" id="post-btn">ADD POST</a>
-            <a id="loginBtn" href="/account/login.html">LOGIN</a>
-            <a id="logoutBtn">LOGOUT</a>
+        <nav class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-buttons" id="navButtons">
+                <a href="/" class="active">FEED</a>
+                <a href="/add-post.html" id="post-btn">ADD POST</a>
+                <a id="loginBtn" href="/account/login.html">LOGIN</a>
+                <a id="logoutBtn">LOGOUT</a>
+            </div>
         </nav>
     </header>
 
