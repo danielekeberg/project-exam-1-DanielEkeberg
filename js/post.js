@@ -38,8 +38,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </div>
                     <p class="author">${post.publishDate} ${post.author}</p>
                     <div class="ifLoggedIn">
-                        <button id="editPost">Edit Post</button>
-                        <button id="deletePost">Delete Post</button>
+                        <button id="edit-post">EDIT POST</button>
                     </div>
                 </div>
             </div>
@@ -49,3 +48,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         postContainer.innerHTML = "<p>Error loading post details.</p>";
     }
 })
+
+function goToEdit() {
+    window.location.href = "./edit.html";
+}
+
+document.getElementById("edit-post").addEventListener("click", goToEdit);
