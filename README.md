@@ -24,7 +24,7 @@ HotView Labs is a tech blog designed to provide the most accurate and up-to-date
 
 - **HTML**: For structuring the content.
 - **CSS**: For designing a responsive and visually appealing layout.
-- **JavaScript (JS)**: For dynamic interactions and API integrations.
+- **JavaScript**: For dynamic interactions and API integrations.
 - **API**: To handle user registration, login, and CRUD operations (Create, Read, Update, Delete) for blog posts.
 
 
