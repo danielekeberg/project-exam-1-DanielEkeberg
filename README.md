@@ -1,4 +1,39 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/99-paxaL)
-# FED1 Project Exam 1
+# Daniel Ekeberg Project Exam 1
 
-Use this file to describe your project.
+![image](https://i.ibb.co/MgmBT5d/image.png)
+
+## Description
+
+## About HotView Labs
+
+HotView Labs is a tech blog designed to provide the most accurate and up-to-date insights to technology leaders across the globe. Our mission is to empower tech professionals with reliable research, innovative trends, and the latest advancements in technology.
+
+## Features
+
+- **Blog Functionality**: View a feed of posts about tech research and development.
+- **User Authentication**:
+  - Register an account.
+  - Log in to access personalized features.
+- **Post Management**:
+  - Create new posts.
+  - Edit existing posts.
+  - Delete posts.
+- **API Integration**: All dynamic functionalities, such as user authentication and blog post management, are powered by APIs.
+
+## Technologies Used
+
+- **HTML**: For structuring the content.
+- **CSS**: For designing a responsive and visually appealing layout.
+- **JavaScript (JS)**: For dynamic interactions and API integrations.
+- **API**: To handle user registration, login, and CRUD operations (Create, Read, Update, Delete) for blog posts.
+
+
+## Live Demo
+
+You can visit the live site [here!](https://danielekeberg-pe1.netlify.app/)
+
+## Author
+
+- Name: Daniel Ekeberg
+- Portfolio: [danielekeberg.netlify.app](https://danielekeberg.netlify.app/)
+- GitHub: [danielekeberg](https://github.com/danielekeberg)
